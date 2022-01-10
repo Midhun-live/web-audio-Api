@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizing</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<script src="index1.js" type="text/javascript" defer></script>
+<body>
+    <canvas id="visualizer"></canvas>
+    <div  class="grid">
+        <label for="volume">Volume</label>
+        <input type="range" min='0' max='1' step='0.01' value='0.5' id='volume'>
+        <label for="bass">Bass</label>
+        <input type="range" min='-10' max='+10' value='0' id='bass'>
+        <label for="mid">Mid</label>
+        <input type="range" min='-10' max='+10' value='0' id='mid'>
+        <label for="treble">Treble</label>
+        <input type="range" min='-10' max='+10' value='0' id='treble'>
+    </div>
+</body>
+</html>
